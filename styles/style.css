@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
 
 /*-------------------------------------
  * customize material design icon sizes 
@@ -8,3 +9,54 @@
 .material-icons.md-24 { font-size: 24px; }
 .material-icons.md-36 { font-size: 36px; }
 .material-icons.md-48 { font-size: 48px; }
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  font-family: 'Secular One', serif;
+  font-weight: 400;
+}
+.navbar-brand > span {
+  margin-left: 12px;
+  color: white;
+}
+/* .navbar-toggler-icon {
+  background-color:  #219EBC;
+} */
+#logo {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background-color: #FB8500;
+  color: white;
+  text-align: center;
+  padding-top: 3.5%;
+}
+
+#hero {
+  background-image: url("/images/hero.jpg");
+  height: 60vh;
+}
+
+.bg-success {
+  background-color: #023047 !important;
+}
+.bg-primary {
+  background-color: #219EBC !important;
+}
+
+h1, button {
+  font-family: 'Secular One', serif;
+  font-weight: 400;
+}
+.btn-primary {
+  background-color: #023047 !important;
+}
+
+.btn-outline-secondary {
+  border: 2px solid #FB8500 !important;
+  color: #FB8500;
+}
+.btn-outline-secondary:hover {
+  background-color: #FB8500;
+}
